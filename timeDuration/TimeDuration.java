@@ -3,6 +3,7 @@ package timeDuration;
 public class TimeDuration {
 
     public static void main(String[] args) {
+
         System.out.println(getTimeDurationString(3945)); // 1st positive test
         System.out.println(getTimeDurationString(65, 45)); // 2nd positive test
         System.out.println(getTimeDurationString(-3945)); // 1st negative test
