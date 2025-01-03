@@ -12,6 +12,7 @@ public class TimeDuration {
     }
 
     public static String getTimeDurationString(int seconds) {
+
         if (seconds < 0) {
             return "Invalid data for seconds (" + seconds + ")" +
                     ", must be a positive integer value";
